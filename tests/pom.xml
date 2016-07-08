@@ -26,9 +26,8 @@
     <version>1.0.0</version>
   </parent>
 
-  <groupId>org.everit.blobstore</groupId>
   <artifactId>org.everit.blobstore.mem.ecm.tests</artifactId>
-  <version>1.0.0</version>
+  <version>2.0.0</version>
 
   <packaging>bundle</packaging>
 
@@ -223,17 +222,12 @@
     <dependency>
       <groupId>org.everit.osgi</groupId>
       <artifactId>org.everit.osgi.ecm.extender.ri</artifactId>
-      <version>2.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.everit.osgi</groupId>
-      <artifactId>org.everit.osgi.ecm.component.ri</artifactId>
-      <version>2.0.1</version>
+      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.everit.osgi</groupId>
       <artifactId>org.everit.osgi.ecm.component.webconsole</artifactId>
-      <version>1.1.0</version>
+      <version>3.0.0</version>
     </dependency>
   </dependencies>
 
